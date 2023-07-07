@@ -1,0 +1,19 @@
+.container {
+  background: #000;
+  padding: 0 50px;
+}
+
+@mixin rainbow-effect {
+  font-family: "SrirachaRegular";
+  background: linear-gradient(
+    to right,
+    #ef5350,
+    #f48fb1,
+    #7e57c2,
+    #2196f3,
+    #26c6da,
+    #43a047
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
